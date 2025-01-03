@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    --white: #fcfcfc;
+    --black: #0c0c0c;
+    --gray: #cccccc;
+
+}
+
+h1, h2 {
+    color: var(--black);
+    text-align: center;
+}
+
+p, a {
+    color: var(--gray);
+    text-align: center;
+}
